@@ -1,0 +1,16 @@
+# Project exclude paths
+/LearnDNS/target/
+/LearnFeature/target/
+/LearnJWT/target/
+/LearnKafka/target/
+/LearnMail/target/
+/LearnNetty/target/
+/LearnokHttp3/target/
+/LearnOkio/target/
+/LearnSB/target/
+/LearnSimpleNetty/target/
+/LearnZookeeper/target/
+/out/
+/ResourceAsStream/target/
+/SDK/target/
+/WSClient/target/

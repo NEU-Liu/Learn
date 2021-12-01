@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/LearnJWT/pom.xml" />
+        <option value="$PROJECT_DIR$/Learn/LearnHutool/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnKafka/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnZookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnSB/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnNetty/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnSimpleNetty/pom.xml" />
+        <option value="$PROJECT_DIR$/WSClient/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnokHttp3/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnFeature/pom.xml" />
+        <option value="$PROJECT_DIR$/GitDNS/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnDNS/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnOkio/pom.xml" />
+        <option value="$PROJECT_DIR$/SDK/pom.xml" />
+        <option value="$PROJECT_DIR$/ResourceAsStream/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnSBRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnSBAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnMail/pom.xml" />
+        <option value="$PROJECT_DIR$/LearnSBNacos/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

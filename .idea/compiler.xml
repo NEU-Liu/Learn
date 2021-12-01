@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WSClient" />
+        <module name="LearnMail" />
+        <module name="LearnSBNacos" />
+        <module name="LearnOkio" />
+        <module name="LearnKafka" />
+        <module name="LearnNetty" />
+        <module name="LearnDNS" />
+        <module name="LearnSB" />
+        <module name="LearnJWT" />
+        <module name="LearnZookeeper" />
+        <module name="LearnFeature" />
+        <module name="LearnokHttp3" />
+        <module name="LearnSBRedis" />
+        <module name="LearnSimpleNetty" />
+        <module name="SDK" />
+        <module name="LearnSBAnnotation" />
+        <module name="ResourceAsStream" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demoEE" target="1.5" />
+      <module name="GithubDNS" target="1.5" />
+      <module name="LearnDNS" target="8" />
+      <module name="LearnEurekaServer" target="1.8" />
+      <module name="LearnFeature" target="1.5" />
+      <module name="LearnHutool" target="8" />
+      <module name="LearnJWT" target="8" />
+      <module name="LearnKafka" target="1.5" />
+      <module name="LearnMail" target="8" />
+      <module name="LearnNetty" target="8" />
+      <module name="LearnNettyWSClient" target="8" />
+      <module name="LearnokHttp3" target="1.5" />
+      <module name="LearnOkio" target="8" />
+      <module name="LearnSB" target="1.8" />
+      <module name="LearnSBAnnotation" target="1.8" />
+      <module name="LearnSBEurekaConsumer" target="1.8" />
+      <module name="LearnSBEurekaProducer" target="1.8" />
+      <module name="LearnSBEurekaServer" target="1.8" />
+      <module name="LearnSBNacos" target="1.8" />
+      <module name="LearnSBRedis" target="1.8" />
+      <module name="LearnSimpleNetty" target="8" />
+      <module name="LearnZookeeper" target="1.5" />
+      <module name="ResourceAsStream" target="8" />
+      <module name="SBES" target="1.5" />
+      <module name="SDK" target="8" />
+      <module name="serverdemoe" target="1.8" />
+      <module name="WSClient" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LearnSBAnnotation" options="-parameters" />
+      <module name="LearnSBNacos" options="-parameters" />
+      <module name="LearnSBRedis" options="-parameters" />
+    </option>
+  </component>
+</project>

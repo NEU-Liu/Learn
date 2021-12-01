@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnDNS/LearnDNS.iml" filepath="$PROJECT_DIR$/LearnDNS/LearnDNS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnFeature/LearnFeature.iml" filepath="$PROJECT_DIR$/LearnFeature/LearnFeature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnJWT/LearnJWT.iml" filepath="$PROJECT_DIR$/LearnJWT/LearnJWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnKafka/LearnKafka.iml" filepath="$PROJECT_DIR$/LearnKafka/LearnKafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnLua/LearnLua.iml" filepath="$PROJECT_DIR$/LearnLua/LearnLua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnLuaJit/LearnLuaJit.iml" filepath="$PROJECT_DIR$/LearnLuaJit/LearnLuaJit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnMail/LearnMail.iml" filepath="$PROJECT_DIR$/LearnMail/LearnMail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnNetty/LearnNetty.iml" filepath="$PROJECT_DIR$/LearnNetty/LearnNetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnOkio/LearnOkio.iml" filepath="$PROJECT_DIR$/LearnOkio/LearnOkio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnPattern/LearnPattern.iml" filepath="$PROJECT_DIR$/LearnPattern/LearnPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSB/LearnSB.iml" filepath="$PROJECT_DIR$/LearnSB/LearnSB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSBAnnotation/LearnSBAnnotation.iml" filepath="$PROJECT_DIR$/LearnSBAnnotation/LearnSBAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSBNacos/LearnSBNacos.iml" filepath="$PROJECT_DIR$/LearnSBNacos/LearnSBNacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSBRedis/LearnSBRedis.iml" filepath="$PROJECT_DIR$/LearnSBRedis/LearnSBRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSimpleNetty/LearnSimpleNetty.iml" filepath="$PROJECT_DIR$/LearnSimpleNetty/LearnSimpleNetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnZookeeper/LearnZookeeper.iml" filepath="$PROJECT_DIR$/LearnZookeeper/LearnZookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnokHttp3/LearnokHttp3.iml" filepath="$PROJECT_DIR$/LearnokHttp3/LearnokHttp3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResourceAsStream/ResourceAsStream.iml" filepath="$PROJECT_DIR$/ResourceAsStream/ResourceAsStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDK/SDK.iml" filepath="$PROJECT_DIR$/SDK/SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WSClient/WSClient.iml" filepath="$PROJECT_DIR$/WSClient/WSClient.iml" />
+    </modules>
+  </component>
+</project>

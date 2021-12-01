@@ -1,0 +1,38 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+  main:
+    banner-mode: console
+
+
+
+  mail:
+    host: smtp.163.com
+    username: liudd0109@163.com
+    password: LKJSMYLEDSFLJLUX
+    properties.mail.smtp.port: 465
+    from: liudd0109@163.com
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+
+
+
+
+
+
+
+
+logging:
+  level:
+    root:
+      info
+
+i:
+  id:
+    "0932421"
+  name:
+    "liu"
