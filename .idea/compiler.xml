@@ -16,6 +16,7 @@
         <module name="LearnDNS" />
         <module name="LearnSB" />
         <module name="LearnJWT" />
+        <module name="LearnES" />
         <module name="LearnZookeeper" />
         <module name="LearnFeature" />
         <module name="LearnokHttp3" />
@@ -30,6 +31,7 @@
       <module name="demoEE" target="1.5" />
       <module name="GithubDNS" target="1.5" />
       <module name="LearnDNS" target="8" />
+      <module name="LearnES" target="1.5" />
       <module name="LearnEurekaServer" target="1.8" />
       <module name="LearnFeature" target="1.5" />
       <module name="LearnHutool" target="8" />

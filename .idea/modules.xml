@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LearnDNS/LearnDNS.iml" filepath="$PROJECT_DIR$/LearnDNS/LearnDNS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnES/LearnES.iml" filepath="$PROJECT_DIR$/LearnES/LearnES.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnFeature/LearnFeature.iml" filepath="$PROJECT_DIR$/LearnFeature/LearnFeature.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnJWT/LearnJWT.iml" filepath="$PROJECT_DIR$/LearnJWT/LearnJWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnKafka/LearnKafka.iml" filepath="$PROJECT_DIR$/LearnKafka/LearnKafka.iml" />
