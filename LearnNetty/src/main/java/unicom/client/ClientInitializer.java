@@ -14,7 +14,7 @@ public class ClientInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = socketChannel.pipeline();
         pipeline.addLast("http-codec",new HttpClientCodec());
         pipeline.addLast("aggregator",new HttpObjectAggregator(1024*1024*10));
-        pipeline.addLast("hookedHandler", new WebSocketClientHandler());
+        pipeline.addLast("hookedHandler", new WebSocketClientHandler0());
     }
 
 }

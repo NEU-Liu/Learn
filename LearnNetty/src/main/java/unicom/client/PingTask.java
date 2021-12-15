@@ -18,6 +18,7 @@ class PingTask implements Runnable {
         //发送的内容，是一个文本格式的内容
         final String putMessage="你好，我是客户端";
         TextWebSocketFrame frame = new TextWebSocketFrame(putMessage);
+
         channel.writeAndFlush(frame).addListener(new ChannelFutureListener() {
             public void operationComplete(ChannelFuture channelFuture) throws Exception {
                 if (channelFuture.isSuccess()) {

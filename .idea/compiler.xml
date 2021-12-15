@@ -17,10 +17,12 @@
         <module name="LearnSB" />
         <module name="LearnJWT" />
         <module name="LearnES" />
+        <module name="LearnTomcat" />
         <module name="LearnZookeeper" />
         <module name="LearnFeature" />
         <module name="LearnokHttp3" />
         <module name="LearnSBRedis" />
+        <module name="LearnTools" />
         <module name="LearnSimpleNetty" />
         <module name="SDK" />
         <module name="LearnSBAnnotation" />
@@ -31,7 +33,7 @@
       <module name="demoEE" target="1.5" />
       <module name="GithubDNS" target="1.5" />
       <module name="LearnDNS" target="8" />
-      <module name="LearnES" target="1.5" />
+      <module name="LearnES" target="8" />
       <module name="LearnEurekaServer" target="1.8" />
       <module name="LearnFeature" target="1.5" />
       <module name="LearnHutool" target="8" />
@@ -50,6 +52,8 @@
       <module name="LearnSBNacos" target="1.8" />
       <module name="LearnSBRedis" target="1.8" />
       <module name="LearnSimpleNetty" target="8" />
+      <module name="LearnTomcat" target="8" />
+      <module name="LearnTools" target="8" />
       <module name="LearnZookeeper" target="1.5" />
       <module name="ResourceAsStream" target="8" />
       <module name="SBES" target="1.5" />

@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/LearnSBNacos/LearnSBNacos.iml" filepath="$PROJECT_DIR$/LearnSBNacos/LearnSBNacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnSBRedis/LearnSBRedis.iml" filepath="$PROJECT_DIR$/LearnSBRedis/LearnSBRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnSimpleNetty/LearnSimpleNetty.iml" filepath="$PROJECT_DIR$/LearnSimpleNetty/LearnSimpleNetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnTomcat/LearnTomcat.iml" filepath="$PROJECT_DIR$/LearnTomcat/LearnTomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnTools/LearnTools.iml" filepath="$PROJECT_DIR$/LearnTools/LearnTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnZookeeper/LearnZookeeper.iml" filepath="$PROJECT_DIR$/LearnZookeeper/LearnZookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnokHttp3/LearnokHttp3.iml" filepath="$PROJECT_DIR$/LearnokHttp3/LearnokHttp3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ResourceAsStream/ResourceAsStream.iml" filepath="$PROJECT_DIR$/ResourceAsStream/ResourceAsStream.iml" />
