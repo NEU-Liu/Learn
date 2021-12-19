@@ -8,6 +8,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.DefaultHttpHeaders;
 import io.netty.handler.codec.http.websocketx.CloseWebSocketFrame;
+import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.handler.codec.http.websocketx.WebSocketClientHandshakerFactory;
 import io.netty.handler.codec.http.websocketx.WebSocketVersion;
 
@@ -78,6 +79,9 @@ public class WSClient implements Runnable{
     }
 
 
+    public void send(String msg){
+        serviceChannel.writeAndFlush(new TextWebSocketFrame(msg));
+    }
 
 
     public void disConnect(){

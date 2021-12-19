@@ -16,15 +16,13 @@ public class Test {
 
 
 
-            WSClient client = new WSClient();
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(0, 1,
-                0L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
-            executor.execute(client);
+        WSClient client = new WSClient();
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(0, 1, 0L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
+        executor.execute(client);
+        Thread.sleep(5_000);
+        client.send("Hello!");
 
-            Executors.newSingleThreadExecutor();
+        //client.disConnect();
 
-            Thread.sleep(20_000);
-            client.disConnect();
-        System.out.println("关闭");
     }
 }

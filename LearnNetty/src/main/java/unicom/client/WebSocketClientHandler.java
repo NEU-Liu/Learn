@@ -9,8 +9,8 @@ import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.websocketx.*;
 import io.netty.util.CharsetUtil;
 
-import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.Date;
+
 
 /**
  * @author caoyouyuan
@@ -41,6 +41,8 @@ public class WebSocketClientHandler extends SimpleChannelInboundHandler<Object> 
 
         Channel channel = channelHandlerContext.channel();
         webSocketClientHandshaker.handshake(channel);
+
+        channel.writeAndFlush(new TextWebSocketFrame("哈哈哈..."));
     }
 
     @Override
@@ -67,19 +69,14 @@ public class WebSocketClientHandler extends SimpleChannelInboundHandler<Object> 
             final TextWebSocketFrame textFrame = (TextWebSocketFrame) frame;
 
             String content = textFrame.text();
-
-
-
-            if(content == null || content.length() <= 0){
-
-            }
+            //System.out.println(content);
+            ctx.writeAndFlush(new TextWebSocketFrame("哈哈..."));
 
         } else if (frame instanceof PongWebSocketFrame) {
+            System.out.println(frame);
         } else if (frame instanceof CloseWebSocketFrame) {
             ch.close();
         } else if (frame instanceof BinaryWebSocketFrame) {
-            // uncomment to print request
-            // logger.info(frame.content().toString());
         }
     }
 

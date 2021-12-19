@@ -18,26 +18,6 @@ import java.util.concurrent.TimeUnit;
 
 
 
-class TestTaskInner implements Runnable {
-
-    private final ChannelGroup clients;
-
-    public TestTaskInner(ChannelGroup clients) {
-        this.clients = clients;
-    }
-
-    @Override
-    public void run() {
-        //do something
-        for (Channel client:clients){
-            //发送消息并刷新通道
-            client.writeAndFlush(new TextWebSocketFrame("Task"));
-        }
-
-        //ctx.writeAndFlush(Unpooled.copiedBuffer(String.valueOf(System.currentTimeMillis()), CharsetUtil.UTF_8));
-    }
-}
-
 
 //extends SimpleChannelInboundHandler<TextWebSocketFrame> 使我们接收到的消息会封装到一个TextWebSocketFrame中
 public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
@@ -55,13 +35,6 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-
-        //  this.heartBeat = this.scheduler.scheduleWithFixedDelay(new TestTask(ctx),0,2, TimeUnit.SECONDS);
-
-        //this.heartBeat = this.scheduler.scheduleWithFixedDelay(new TestTaskInner(ctx),0,2, TimeUnit.SECONDS);
-
-
-        this.heartBeat = this.scheduler.scheduleWithFixedDelay(new TestTaskInner(clients),0,6, TimeUnit.SECONDS);
 
     }
 

@@ -14,6 +14,7 @@
         <module name="LearnKafka" />
         <module name="LearnNetty" />
         <module name="LearnDNS" />
+        <module name="LearnTServer" />
         <module name="LearnSB" />
         <module name="LearnJWT" />
         <module name="LearnES" />
@@ -54,6 +55,7 @@
       <module name="LearnSimpleNetty" target="8" />
       <module name="LearnTomcat" target="8" />
       <module name="LearnTools" target="8" />
+      <module name="LearnTServer" target="1.8" />
       <module name="LearnZookeeper" target="1.5" />
       <module name="ResourceAsStream" target="8" />
       <module name="SBES" target="1.5" />
@@ -67,6 +69,7 @@
       <module name="LearnSBAnnotation" options="-parameters" />
       <module name="LearnSBNacos" options="-parameters" />
       <module name="LearnSBRedis" options="-parameters" />
+      <module name="LearnTServer" options="-parameters" />
     </option>
   </component>
 </project>

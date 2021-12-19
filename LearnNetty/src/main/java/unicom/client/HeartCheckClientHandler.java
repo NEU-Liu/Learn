@@ -20,12 +20,12 @@ public class HeartCheckClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
 
-        System.out.println("客户端心跳监测发送" + new Date());
-
         if (evt instanceof IdleStateEvent) {
             IdleStateEvent event = (IdleStateEvent) evt;
             if (event.state() == IdleState.WRITER_IDLE) {
+
                 WebSocketFrame frame = new PingWebSocketFrame(Unpooled.wrappedBuffer(new byte[] { 8, 1, 8, 1 }));
+                System.out.println("客户端发生Ping消息!");
                 ctx.writeAndFlush(frame);
             }
         }

@@ -32,12 +32,12 @@ public class MockClientInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = channel.pipeline();
         // 将请求与应答消息编码或者解码为HTTP消息
         pipeline.addLast(new HttpClientCodec());
-        pipeline.addLast(new LoggingHandler(LogLevel.INFO));
+        //pipeline.addLast(new LoggingHandler(LogLevel.ERROR));
         pipeline.addLast("decoder", new StringDecoder());
         pipeline.addLast("encoder", new StringEncoder());
         // 客户端Handler
         pipeline.addLast(new HttpObjectAggregator(65536));
-        pipeline.addLast(new IdleStateHandler(0,3,0, TimeUnit.SECONDS));
+        pipeline.addLast(new IdleStateHandler(3,3,3, TimeUnit.SECONDS));
         pipeline.addLast(new HeartCheckClientHandler());
         pipeline.addLast("handler", mockClientHandler);
     }
